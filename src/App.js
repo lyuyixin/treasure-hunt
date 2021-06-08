@@ -7,7 +7,7 @@ import MyListings from './components/MyListings/MyListings';
 import SavedListings from './components/SavedListings/SavedListings';
 
 import Login from 'components/Authentication/Login/Login';
-import Signup from 'components/Authentication/Signup/Signup';
+import Signup from 'components/Authentication/SignUp/SignUp';
 import ListingDetail from './components/ListingDetail/ListingDetail';
 
 import './App.css';
