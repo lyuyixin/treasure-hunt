@@ -13,7 +13,7 @@
 @import 'components/Home/CarouselSlides.css';
 @import 'components/Authentication/SplitLayout/SplitLayout.css';
 @import 'components/Authentication/Login/Login.css';
-@import 'src/components/Authentication/SignUp/SignUp.css';
+@import 'components/Authentication/SignUp/SignUp.css';
 
 body {
   margin: 0;
@@ -27,4 +27,12 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.ant-carousel .slick-dots {
+  z-index: 0;
+}
+
+.ant-menu-horizontal {
+  border-bottom: 0;
 }
